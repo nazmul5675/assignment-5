@@ -29,7 +29,7 @@
                 <div class="bg-[#F9F7F3] pt-6 pb-14 ">
                     <div class="flex justify-between sm:mx-[137px] mx-[37px]">
                         <div class="">
-                            <a href="blog.html" class="btn font-semibold bg-[#B4F461] ">Home</a>
+                            <a href="index.html" class="btn font-semibold bg-[#B4F461] ">Home</a>
                         </div>
                         <div class="hidden sm:flex">
                             <b class="flex items-center gap-3 text-[#111111] font-semibold "><img class="w-10"
@@ -47,34 +47,74 @@
                 </div>
             </nav>
             <!-- navbar end -->
-            <!-- header btn  -->
-            <div class="backdrop-blur text-center pt-20 pb-8 gap-4">
-                <a href="index.html"><button class="btn font-semibold bg-[#B4F461] ">Donation</button></a>
-                <button class="btn font-semibold border-[#B8B8B8]">History</button>
-            </div>
-            <!-- header btn end -->
         </header>
         <!-- faq section -->
-        <div class="mt-80">
-            <div class="collapse collapse-arrow bg-base-200">
+
+        <div class="mt-40">
+            <h1 class="font-extrabold text-5xl my-8">Important FAQ !</h1>
+            <div class="collapse collapse-arrow bg-base-200 border-2 border-gray-300">
                 <input type="radio" name="my-accordion-2" checked="checked" />
-                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-title text-xl font-medium">What is the Document Object Model (dom) ?</div>
                 <div class="collapse-content">
-                    <p>hello</p>
+                    <p><b>The Document Object Model (DOM) </b>is a programming interface for web documents. It
+                        represents the
+                        structure of a webpage as a tree of objects, where each node in the tree is a part of the
+                        document—such as elements, attributes, and text.</p>
                 </div>
             </div>
-            <div class="collapse collapse-arrow bg-base-200">
+            <div class="collapse collapse-arrow bg-base-200 border-2 border-gray-300">
                 <input type="radio" name="my-accordion-2" />
-                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-title text-xl font-medium">How do you select an element from DOM ?</div>
                 <div class="collapse-content">
-                    <p>hello</p>
+                    <p>To select an element from the DOM using JavaScript, we have several methods available depending
+                        on how specific or general your selection needs to be. Here are the most common ways: <br> <br>
+                        getElementById() <br>
+                        getElementsByClassName() <br>
+                        getElementsByTagName() <br>
+                        querySelector() <br>
+                        querySelectorAll() <br>
+                        getElementsByName() <br>
+                    </p>
                 </div>
             </div>
-            <div class="collapse collapse-arrow bg-base-200">
+            <div class="collapse collapse-arrow bg-base-200 border-2 border-gray-300">
                 <input type="radio" name="my-accordion-2" />
-                <div class="collapse-title text-xl font-medium">Click to open this one and close others</div>
+                <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and
+                    why is it useful ?</div>
                 <div class="collapse-content">
-                    <p>hello</p>
+                    <p>Event delegation is a technique in JavaScript where you leverage the event bubbling mechanism of
+                        the DOM to handle events more efficiently by attaching a single event listener to a parent
+                        element, rather than attaching multiple event listeners to child elements. <br> <br>
+
+                        Instead of attaching individual event listeners to every child element, event delegation allows
+                        you to put a single listener on a common ancestor element, and then capture the event when it
+                        bubbles up from the target child element.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-arrow bg-base-200 border-2 border-gray-300">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles
+                    using DOM ?</div>
+                <div class="collapse-content">
+                    <p>we can manipulate an element's attributes and styles using the DOM in JavaScript by utilizing
+                        various built-in methods and properties. Here’s how you can perform both tasks: <br><br>
+                        setAttribute() <br>
+                        getAttribute() <br>
+                        removeAttribute() <br>
+                        Directly Accessing Element Properties <br><br>
+                        Directly Accessing Element Properties <br>
+                        id, class, src <br>
+                        Using style Property
+                        <br><br>
+                        Adding or Removing Classes
+                        <br>i. classList.add() <br>
+                        ii. classList.remove() <br>
+                        iii. classList.toggle() <br>
+                        iv. classList.contains() <br> <br>
+                        Using getComputedStyle()
+
+
+                    </p>
                 </div>
             </div>
         </div>
